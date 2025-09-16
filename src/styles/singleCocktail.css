@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.single-cocktail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5%;
+}
+.single-cocktail h1{
+    color: crimson;
+    margin-bottom: 20px;
+}
+.single-cocktail .details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 3rem;
+  border-radius: 8px;
+}
+.single-cocktail .details .cocktail-info {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.single-cocktail .details .cocktail-info .first h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 5px crimson;
+}
+.single-cocktail .details .cocktail-info .second p{
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    margin-top: 60px;
+}
+.single-cocktail .details .cocktail-info .second p span:first-of-type{
+    background-color: crimson;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    margin-right: 6px;
+}
+.single-cocktail .details .cocktail-info .second h3{
+    background-color: crimson;
+    padding: 3px;
+    border-radius: 3px;
+    border: none;
+    width: fit-content;
+    margin-bottom: 5px;
+}
+.single-cocktail .details .cocktail-info .second ul{
+    list-style-type: none;
+    margin-left: 20px;
+}
+.single-cocktail .details .cocktail-info .second ul li{
+    margin-bottom: 5px;
+    color: lightgray;
+}
+.single-cocktail .details .cocktail-info .second .back-button{
+    margin-top: 20px;
+    padding: 8px 20px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+.single-cocktail .details .cocktail-info .second .back-button:hover{
+    transform: scale(1.08);
+    box-shadow: 0px 0px 10px crimson;
+}

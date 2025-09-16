@@ -1,0 +1,22 @@
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh; /* flexible height */
+  width: 100%;
+}
+
+/* ✅ Tablets */
+@media (max-width: 1000px) {
+  .loader-container {
+    min-height: 50vh;
+  }
+}
+
+/* ✅ Mobiles */
+@media (max-width: 600px) {
+  .loader-container {
+    min-height: 40vh;
+    padding: 1rem;
+  }
+}

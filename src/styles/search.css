@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* 🔍 Search Section */
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem; /* smaller side padding for mobile */
+}
+
+.search .search-container {
+  width: 500px;
+  max-width: 100%; /* keeps it within screen */
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  gap: 1rem;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  border: none;
+}
+
+.search .search-container p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: crimson;
+  text-align: center; /* centered for mobile readability */
+}
+
+.search .search-container p span {
+  color: white;
+}
+
+.search .search-container form {
+  width: 100%;
+}
+
+.search .search-container form input {
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+/* 📱 Responsive Breakpoints */
+
+/* Tablets */
+@media (max-width: 1000px) {
+  .search .search-container {
+    width: 90%;
+  }
+  .search .search-container p {
+    font-size: 1.1rem;
+  }
+}
+
+/* Mobile (general) */
+@media (max-width: 600px) {
+  .search {
+    padding: 2rem 1rem;
+  }
+  .search .search-container {
+    width: 95%;
+    padding: 1rem;
+  }
+  .search .search-container p {
+    font-size: 1rem;
+  }
+  .search .search-container form input {
+    font-size: 0.95rem;
+    padding: 0.5rem;
+  }
+}
+
+/* Small Phones */
+@media (max-width: 480px) {
+  .search {
+    padding: 1.5rem 0.5rem;
+  }
+  .search .search-container {
+    width: 100%;
+    padding: 0.8rem;
+  }
+  .search .search-container p {
+    font-size: 0.9rem;
+  }
+  .search .search-container form input {
+    font-size: 0.9rem;
+    padding: 0.4rem;
+  }
+}
