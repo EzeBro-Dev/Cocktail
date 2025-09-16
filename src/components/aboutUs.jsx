@@ -1,4 +1,6 @@
 import '../styles/aboutUs.css'
+import cocktailDrink from '../assets/cocktailDrink.webp'
+import cocktailParty from '../assets/cocktailParty.webp'
 
 const AboutUs = () => {
   return (
@@ -6,7 +8,7 @@ const AboutUs = () => {
         <div className='about'>
             <h3>About Us</h3>
             <div>
-                <img src="src/assets/cocktailParty.webp" alt="Image" />
+                <img src={cocktailParty} alt="Image" />
                 <div className='about-info'>
                     <p>
                         At Winn-cocktail, we are passionate about the art of mixology and the joy that comes from crafting 
@@ -23,7 +25,7 @@ const AboutUs = () => {
                 </div>
             </div>
             <div>
-                <img src="src/assets/cocktailDrink.webp" alt="Image" />
+                <img src={cocktailDrink} alt="Image" />
                 <div className='about-info'>
                     <h4>What we do:</h4>
                     <h5>Inspiration:</h5>
