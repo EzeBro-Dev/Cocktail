@@ -79,3 +79,49 @@
     transform: scale(1.08);
     box-shadow: 0px 0px 10px crimson;
 }
+
+
+/* RESPONSIVENESS */
+@media (max-width: 992px) {
+  .single-cocktail .details {
+    padding: 1.5rem;
+  }
+
+  .single-cocktail .details .cocktail-info {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .single-cocktail .details .cocktail-info .second {
+    margin-top: 20px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .single-cocktail {
+    padding: 2rem 1rem;
+  }
+
+  .single-cocktail h1 {
+    font-size: 1.8rem;
+  }
+
+  .single-cocktail .details {
+    padding: 1rem;
+  }
+
+  .single-cocktail .details .cocktail-info .first h2 {
+    font-size: 1.5rem;
+  }
+
+  .single-cocktail .details .cocktail-info .second p {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
+  .single-cocktail .details .cocktail-info .second .back-button {
+    width: 100%;
+    font-size: 0.95rem;
+  }
+}
