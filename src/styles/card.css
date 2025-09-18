@@ -74,23 +74,20 @@
 }
 
 
-/* Tablets */
+
 @media (max-width: 1000px) {
-  .card-list {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  }
   .card .card-content h1 {
     font-size: 1.2rem;
   }
 }
 
-/* Mobile */
+
 @media (max-width: 600px) {
-  .card-list {
-    grid-template-columns: 1fr;
-  }
   .card .card-img {
-    height: 180px;
+    height: 280px;
+  }
+  .card .card-img img {
+    object-fit: cover;
   }
   .card .card-content h1 {
     font-size: 1.1rem;
