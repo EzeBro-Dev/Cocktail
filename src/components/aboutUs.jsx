@@ -8,7 +8,6 @@ const AboutUs = () => {
         <div className='about'>
             <h3>About Us</h3>
             <div>
-                <img src={cocktailParty} alt="Image" />
                 <div className='about-info'>
                     <p>
                         At Winn-cocktail, we are passionate about the art of mixology and the joy that comes from crafting 
@@ -23,6 +22,7 @@ const AboutUs = () => {
                         through the art of cocktail making.
                     </p>
                 </div>
+                <img src={cocktailParty} alt="Image" />
             </div>
             <div>
                 <img src={cocktailDrink} alt="Image" />

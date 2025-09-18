@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.training{
+    padding: 5%;
+}
+.training h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: crimson;
+}
+.training .training-content{
+    display: flex;
+    flex-direction: column;
+}

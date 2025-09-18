@@ -21,7 +21,9 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li>
-            <a href="#">Training</a>
+            <NavLink to="/training" end>
+              Training
+            </NavLink>
           </li>
         </ul>
         <div className='menubar'>

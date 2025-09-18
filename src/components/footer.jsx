@@ -1,4 +1,5 @@
 import '../styles/footer.css'
+import { NavLink } from 'react-router';
 
 const Footer = () => {
   return (
@@ -20,9 +21,21 @@ const Footer = () => {
                 </div>
                 <div>
                     <h1>Pages</h1>
-                    <a href="#" className='pages'>Home</a>
-                    <a href="#" className='pages'>About</a>
-                    <a href="#" className='pages'>Training</a>
+                    <p className='pages'>
+                        <NavLink to="/" end>
+                            Home
+                        </NavLink>
+                    </p>
+                    <p className='pages'>
+                        <NavLink to="/about" end>
+                            About
+                        </NavLink>
+                    </p>
+                    <p className='pages'>
+                        <NavLink to="/training" end>
+                            Training
+                        </NavLink>
+                    </p>
                 </div>
                 <div>
                     <h1>Contact</h1>
