@@ -1,15 +1,22 @@
 import '../styles/navbar.css'
 import { GiHamburgerMenu } from "react-icons/gi";
 import { NavLink } from 'react-router';
+import { useState } from 'react';
 
 const Navbar = () => {
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setSidebarOpen(!sidebarOpen);
+  };
+
   return (
     <>
       <div className="navbar">
         <h1>
           Cocktail <span>DB</span>
         </h1>
-        <ul>
+        <ul className="nav-links">
           <li>
             <NavLink to="/" end>
               Home
@@ -26,12 +33,29 @@ const Navbar = () => {
             </NavLink>
           </li>
         </ul>
-        <div className='menubar'>
-          <GiHamburgerMenu className='menu'/>
+        <div className="menubar" onClick={toggleSidebar}>
+          <GiHamburgerMenu className="menu" />
         </div>
       </div>
-    </>
-  )
-}
 
-export default Navbar
+      <div className={`sidebar ${sidebarOpen ? "open" : ""}`}>
+        <button className="close-btn" onClick={toggleSidebar}>×</button>
+        <NavLink to="/" end onClick={toggleSidebar}>
+          Home
+        </NavLink>
+        <NavLink to="/about" end onClick={toggleSidebar}>
+          About
+        </NavLink>
+        <NavLink to="/training" end onClick={toggleSidebar}>
+          Training
+        </NavLink>
+      </div>
+
+      {
+        sidebarOpen && <div className="overlay" onClick={toggleSidebar}></div>
+      }
+    </>
+  );
+};
+
+export default Navbar;

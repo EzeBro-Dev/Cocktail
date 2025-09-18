@@ -59,6 +59,12 @@
   padding-left: 0.5rem;
 }
 
+.footer .footer-links div .pages a.active {
+  border-bottom: none;
+  border-left: 3px solid crimson;
+  padding-left: 0.5rem;
+}
+
 .footer .footer-links div .pages:hover {
   color: white;
 }
