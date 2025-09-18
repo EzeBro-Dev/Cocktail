@@ -29,21 +29,24 @@ const Trainingsec = () => {
                         <span>Master advanced techniques to take your cocktail game to the next level.</span>
                     </p>
                 </div>
-                <div>
+                <div className='training-form'>
                     <form>
-                        <input type="text" />
-                        <input type="text" />
+                        <h4>Contact Us</h4>
+                        <input type="text" placeholder='Full Name'/>
+                        <input type="text" placeholder='Email Address'/>
                         <select>
+                            <option>Level Of Expertise: </option>
                             <option>Novice</option>
                             <option>Intermediate</option>
                             <option>Advance</option>
                         </select>
                         <select>
+                            <option>Preferred Learning Method: </option>
                             <option>Video Tutorials</option>
                             <option>Written Guides</option>
                             <option>Live webinars</option>
                         </select>
-                        <input type="submit" />
+                        <input type="submit" value={"Submit"} className='submit-button'/>
                     </form>
                 </div>
             </div>
