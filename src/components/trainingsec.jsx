@@ -8,7 +8,7 @@ const Trainingsec = () => {
             <div className='training-content'>
                 <div>
                     <p>
-                        Welcome to the Training Hub at Winn-cocktail
+                        Welcome to the Training Hub at Cocktail-Ruddy
                         Embark on a journey of discovery and mastery with our comprehensive training resources designed to elevate 
                         your mixology skills. Whether you're a novice looking to shake up your first cocktail or an experienced 
                         bartender aiming to refine your craft, our training page is your go-to destination for learning and growth.

@@ -10,13 +10,13 @@ const AboutUs = () => {
             <div>
                 <div className='about-info'>
                     <p>
-                        At Winn-cocktail, we are passionate about the art of mixology and the joy that comes from crafting 
+                        At Cocktail-Ruddy, we are passionate about the art of mixology and the joy that comes from crafting 
                         and savoring exceptional cocktails. Our journey began with a shared love for unique flavors, creativity 
                         in mixology, and the desire to bring the world of cocktails closer to enthusiasts like you.
                     </p>
                     <h4>Who we are:</h4>
                     <p>
-                        Winn-cocktail is a curated space where cocktail aficionados, both seasoned mixologists and enthusiastic 
+                        Cocktail-Ruddy is a curated space where cocktail aficionados, both seasoned mixologists and enthusiastic 
                         beginners, come together to explore, learn, and elevate their cocktail experiences. Our team is composed 
                         of dedicated individuals who share a common goal – to inspire and empower you to create memorable moments 
                         through the art of cocktail making.

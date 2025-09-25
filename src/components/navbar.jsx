@@ -14,7 +14,7 @@ const Navbar = () => {
     <>
       <div className="navbar">
         <h1>
-          Cocktail <span>DB</span>
+          Cocktail <span>Ruddy</span>
         </h1>
         <ul className="nav-links">
           <li>

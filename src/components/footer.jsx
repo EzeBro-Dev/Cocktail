@@ -9,9 +9,9 @@ const Footer = () => {
                 <div>
                     <h1>
                         <span>Cocktail </span>
-                        DB
+                        Ruddy
                     </h1>
-                    <p>At Winn-cocktail, we are passionate about the art of mixology and the joy that comes from crafting and savoring exceptional cocktails.</p>
+                    <p>At Cocktail-Ruddy, we are passionate about the art of mixology and the joy that comes from crafting and savoring exceptional cocktails.</p>
                 </div>
                 <div>
                     <h1>Top Courses</h1>
